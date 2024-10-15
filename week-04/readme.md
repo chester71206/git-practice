@@ -4,12 +4,11 @@
 ---
 
 ## 2. 什麼是 Instance Type?
-- **解釋**: 指的是你創instance之後所選擇的硬體規格，如 CPU、記憶體等。規格越高、性能越好，價格也越貴。
+- 指的是你創instance之後所選擇的硬體規格，如 CPU、記憶體等。規格越高、性能越好，價格也越貴。
 
 ---
 
-## 3. 什麼是 Nginx？有哪些用途與特性？
-- **解釋**: 
+## 3. 什麼是 Nginx？有哪些用途與特性？ 
   - Nginx 最主要是一個 Web Server，主要用來處理 HTTP 請求，回應對應的內容。
   - 也可以作為一個 **Reverse Proxy（反向代理伺服器）**，將 client 的請求轉發到後端伺服器（如 Express 伺服器），再將後端回應結果傳回 client。
   - Nginx 也可以將流量分配到多個伺服器上，防止伺服器爆掉
@@ -17,7 +16,6 @@
 ---
 
 ## 4. PM2 套件是什麼？有什麼用處？
-- **解釋**: 
   - PM2 是一個為 Node.js 設計的 **Process Manager**。
   - 可以在背景執行程式，並且當程式崩潰時會自動重啟，確保系統的穩定。
   - 所有問題或輸出都可以在log檔查到，方便debug。
@@ -25,7 +23,6 @@
 ---
 
 ## 5. 步驟 9 中提到的 Proxy 是什麼意思？為什麼要透過 Nginx 來 Proxy 到 Express 開發的 Web Server?
-- **解釋**: 
   - proxy是一個中間人，在server和client之間轉發請求。
   - 分為 **Forward Proxy** 和 **Reverse Proxy**：
     - **Forward Proxy（正向代理伺服器）**：代表客戶端發出請求，訪問網站的資源。
@@ -73,7 +70,6 @@ server {
 - **在這個網站找到的**：[Nginx 日誌管理 - CSDN](https://blog.csdn.net/qq_35393472/article/details/136719093)
 
 - **查看 Nginx Log 的方法**：
-  - 使用 `vim` 編輯器查看：
     ```bash
     vim access.log
     vim error.log
