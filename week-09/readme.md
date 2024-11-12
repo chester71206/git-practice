@@ -26,3 +26,7 @@ sudo gzip /var/log/system/largefile1
 ![image](https://github.com/user-attachments/assets/ecf49e64-e894-4fe6-a704-a07897a42b62)
 
 
+心得:
+我覺得自己還有很大的進步空間，很多步驟都需要靠有人提示或是AI的協助才得以完成，應該要再精進自己!
+
+
